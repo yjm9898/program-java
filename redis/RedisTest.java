@@ -3,8 +3,6 @@ package com.file;
 import org.junit.Test;
 import redis.clients.jedis.*;
 
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @author <a href="qiaotaosheng@163.com">TaoSheng.Qiao</a>
@@ -23,7 +21,7 @@ public class RedisTest {
 
     public void testJedis(){
         Jedis jedis = jedisPool.getResource();
-		// 选择redis库号
+	// 选择redis库号
         jedis.select(3);
         jedis.sadd("ss1", "111");
         jedis.sadd("ss1", "222");

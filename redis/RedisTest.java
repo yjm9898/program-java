@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * @author <a href="qiaotaosheng@163.com">TaoSheng.Qiao</a>
  * @version 1.0.0
  * @description:
  * @date 2016-8-24 17:37

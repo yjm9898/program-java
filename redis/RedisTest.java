@@ -32,9 +32,9 @@ public class RedisTest {
         jedis.sadd("ss1", "444");
         jedis.sadd("ss2", "44411");
         jedis.sadd("ss2", "44422");
-		// 主动触发保存镜像
+	// 主动触发保存镜像
         // jedis.save();
-		// 主动触发后台保存镜像
+	// 主动触发后台保存镜像
         // jedis.bgrewriteaof();
         jedis.set("w","www");
         System.out.println(jedis.smembers("ss1") + "====="+jedis.get("w"));

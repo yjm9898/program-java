@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://code.alibabatech.com/schema/dubbo
+      http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--应用名称 application name-->
+    <dubbo:application name="consumer-of-helloworld-app" />
+
+    <!-- registry address, used for consumer to discover services -->
+    <!--<dubbo:registry address="multicast://224.5.6.7:1234" />-->
+    <!--注册中心的地址-->
+    <!--<dubbo:registry address="zookeeper://192.168.11.133:2181" check="false" subscribe="false" register=""></dubbo:registry>-->
+
+    <!--service address-->
+    <dubbo:registry  protocol="dubbo" address="172.16.22.222:19090" />
+
+    <!-- which service to consume? -->
+    <dubbo:reference id="testsayService" interface="dubbo.service.TestSayService" />
+</beans>

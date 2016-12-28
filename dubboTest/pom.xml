@@ -19,8 +19,6 @@
         <module>SayService</module>
         <module>RegisterCentre</module>
         <module>PersonCustomer</module>
-        <module>TestModule</module>
-
     </modules>
     <dependencies>
         <dependency>

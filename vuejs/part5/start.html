@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>vue.js tutorial | directives</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <ol>
+            <todo-item></todo-item>
+             <todo-jiemin v-for="item in groceryList" :todo="item"></todo-jiemin>
+        </ol>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script type="text/javascript">
+Vue.component('todo-item', {
+    template: '<li>This is a todo</li>'
+});
+
+Vue.component('todo-jiemin', {
+    props: ['todo'],
+    template: '<li>{{ todo.text }}</li>'
+});
+
+var app = new Vue({
+    el: '#app',
+    data:{
+        groceryList:[
+            {text: 'Vegetables'},
+            {text: 'Cheese'}
+        ]
+    }
+});
+</script>
+
+</html>

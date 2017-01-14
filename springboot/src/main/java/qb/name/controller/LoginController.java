@@ -1,4 +1,4 @@
-package qb.name.controller;
+﻿package qb.name.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import qb.name.entitys.User;
 
 /**
- * @author <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * @author qb
  * @version 1.0.0
  * @description:    user login
  * @date 2017-1-14 17:23

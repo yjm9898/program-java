@@ -1,7 +1,7 @@
-package qb.name.entitys;
+﻿package qb.name.entitys;
 
 /**
- * @author <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * @author qb
  * @version 1.0.0
  * @description:
  * @date 2017-1-14 17:22

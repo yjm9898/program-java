@@ -2,7 +2,7 @@ package dubbo.service;
 
 /**
  * description:
- * author: <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * author: qb
  * date:  2016-7-14  16:14
  * version: 1.0.0
  */

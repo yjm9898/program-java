@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /**
  * description:
- * author: <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * author: qb
  * date:  2016-7-14  17:33
  * version: 1.0.0
  */

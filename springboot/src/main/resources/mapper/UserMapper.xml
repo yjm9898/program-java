@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+<!-- Used by the mto client to fetch the frame -->
+<mapper namespace="qb.name.dao.UserMapper">
+	<resultMap type="qb.name.entities.User" id="userMap">
+		<id property="id" column="id"/>
+		<result property="userName" column="user_name"/>
+		<result property="password" column="password"/>
+		<result property="sex" column="sex"/>
+	</resultMap>
+
+	<insert id="insertUser" >
+		insert into qb_user (user_name,password,sex)
+		values(#{user.userName},#{user.password},#{user.sex})
+	</insert>
+
+	<select id="selectUserByName" resultMap="userMap">
+		select id,user_name,sex from qb_user where user_name = #{name}
+	</select>
+</mapper>

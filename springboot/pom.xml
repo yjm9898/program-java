@@ -23,6 +23,7 @@
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
 
+        <!-- 数据库的相关jar -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
@@ -44,7 +45,7 @@
             <version>1.0.27</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <!-- 工具类相关jar -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>

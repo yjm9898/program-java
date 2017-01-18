@@ -1,7 +1,7 @@
-package dubbo.entity;
+﻿package dubbo.entity;
 
 /**
- * @author <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * @author qb
  * @version 1.0.0
  * @description:
  * @date 2016-12-28 15:45

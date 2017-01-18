@@ -1,4 +1,4 @@
-package dubbo.customer;
+﻿package dubbo.customer;
 
 import dubbo.service.TestSayService;
 import org.apache.log4j.Logger;
@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /**
  * description:
- * author: <a href="qiaotaosheng@wxchina.com">TaoSheng.Qiao</a>
+ * author: qb
  * date:  2016-7-15  11:31
  * version: 1.0.0
  */
